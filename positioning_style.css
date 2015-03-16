@@ -45,7 +45,7 @@ NAVBAR LINKS START */
 .navbar a:hover {
 
 	text-decoration: none;
-	color: yellow;
+	color: orange;
 
 }
 
@@ -63,13 +63,15 @@ NAVBAR LINKS END */
 NAVBAR CONTAINER START */
 
 .navbar {
-	padding-left: 16%;
 	list-style-type: none;
 	position: fixed;
+	top: 0;
+	margin-top: 0;
+	padding-left: 25%;
 	z-index: 9;
 	width: 100%;
 	background-color: black;
-	margin:0;
+	
 }
 
 /*.navbar ul{
@@ -159,23 +161,31 @@ PAGE  TEXT CONTENT END  */
 /***********
 PAGE  BOX CONTENT START  */
 
-.boxes-container {
+.big_box {
+
 	position: relative;
 	top:20%;
+	width: 100%;
+	height:800px;
+}
+
+.boxes-container {
+	position: relative;
 	margin-left: 17%;
 	margin-right: 10%;
 	opacity: .2;
-	height: 800px;
+
 }
+	
 
 .boxes {
-position: relative;
-float: left;
-width: 200px;
-height: 300px;
-background-color: orange;
-border-radius: 6px;
-margin: 10px;
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 300px;
+	background-color: orange;
+	border-radius: 6px;
+	margin: 10px;
 }
 
 
